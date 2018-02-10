@@ -10,6 +10,15 @@
 
 main.js是主程序代码：
 
-    require(['config'],function(){});});});});});});});});});
+    require(['config'],function(){
+      require(['jquery'],function ($) {
+        $(document).on('click','#contentBtn',function(){
+          $('#messagebox').html('You have access Jquery by using require()');
+          require(['script/alertdesc'],function(alertdesc){
+            alertdesc();
+          });
+        });
+      });
+    });
   
       

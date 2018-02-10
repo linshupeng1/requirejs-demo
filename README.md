@@ -32,4 +32,5 @@ config.js是require配置代码
 	    });
 	});
 
+![avatar](1.png)
       

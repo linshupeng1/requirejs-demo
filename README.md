@@ -10,6 +10,6 @@
 
 main.js是主程序代码：
 
-    require(['config'],function(){
+    require(['config'],function(){});});});});});});});});});
   
       

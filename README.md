@@ -8,6 +8,10 @@
 
 这里实现<b>按需请求</b>、<b>相关依赖</b>、把config 单独抽出来。
 
+该demo的目录结构是
+
+![avatar](1.png)
+
 main.js是主程序代码
     
 	require(['config'],function(){
@@ -32,5 +36,5 @@ config.js是require配置代码
 	    });
 	});
 
-![avatar](1.png)
+
       
